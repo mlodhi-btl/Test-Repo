@@ -1,0 +1,58 @@
+<html>
+<body <body style="background-color:powderblue;" >
+<head> Retro Details: </head>
+<form action="http://" method="POST"  id ="myform">
+
+  <div>
+    <label >id</label>
+    <input name="id" id="id" value="" size="4">
+  </div>
+  <br/>
+  <div>
+    <label >project</label>
+    <input name="project" id="project" value="" size="6">  Team <input name ="team" id="team" value="team1" size="5">
+  </div>
+  <br/>
+   <div>
+    <label >sprint</label>
+    <input name="sprint" id="sprint" value="1"   size="1">
+  </div>
+  <br/>
+   <div>
+    <label >retro item</label>
+    <input name="item" id="item" value="" size="4">
+  </div>
+  <br/>
+   <div>
+    <label >action item</label>
+    <input name="sitem" id="sitem" value="" size="6">
+  </div>
+  <br/>
+   <div>
+    <label >owner</label>
+    <input name="owner" id="owner" value="" size="4">
+  </div>
+  <br/>
+   <div>
+    <label >Due Date</label>
+    <input name="date" type =date id="date" value="">  status <select name="status">
+    <option value="open">Open</option>
+    <option value="close">Close</option>
+    <option value="Inprogress">Inprogress</option>
+    <option value="cacnel">cancel</option>
+  </select>
+  <br><br>
+  
+  </div>
+  <br/>
+  <input type=submit> </input><input type ="button"  onclick="myFunction()" value =" Clear"></button> <button type="submit" value="Submit">Delete</button> <button type="submit" value="Submit">Save</button>
+</form>
+
+</body>
+<script>
+function myFunction() {
+  document.getElementById("myform").reset();
+}
+</script>
+
+</html>
